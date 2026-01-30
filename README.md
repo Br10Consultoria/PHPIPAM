@@ -174,3 +174,14 @@ Agora você tem:
 ---
 
 **Dica:** Inicie uma conversa com seu bot no Telegram antes de executar o script pela primeira vez!
+
+crontab -e
+opcao 1
+cola o conteudo abaixo 
+
+0 22 * * * /root/backup_telegram.sh >> /var/log/backup_phpipam.log 2>&1
+salva 
+depois  executa 
+
+crontab -l
+vai aparecer  o conteudo acima 
