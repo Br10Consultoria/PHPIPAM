@@ -1,0 +1,13 @@
+# 1. Fazer upload para servidor Debian 12
+scp install_phpipam.sh root@seu-servidor:/root/
+
+# 2. Conectar no servidor
+ssh root@seu-servidor
+
+# 3. Executar
+chmod +x install_phpipam.sh
+./install_phpipam.sh
+
+# 4. Aguardar 5-10 minutos
+
+# 5. Acessar: http://SEU_IP/phpipam
